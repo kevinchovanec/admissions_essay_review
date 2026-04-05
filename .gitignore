@@ -1,0 +1,28 @@
+# Real applicant data — never commit
+data/real/
+
+# All computed outputs (regenerate by running notebooks)
+outputs/
+
+# Fine-tuned model weights — too large for GitHub (use HuggingFace Hub or Git LFS)
+essay_assessment/*finetuned*/
+essay_assessment/checkpoint-*/
+*.safetensors
+*.bin
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+venv/
+
+# IDE
+.vscode/
+.vs/
+.DS_Store
